@@ -17,7 +17,6 @@ import java.lang.reflect.Method;
 
 public class BaseClass
 {
-	//le dabba nanmagane
 	protected WebDriver driver;
 	ExtentReports report;
 	public static ExtentTest logger;
