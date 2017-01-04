@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.basic.smoke.Script2">
+        <methods>
+          <include name="reportsGeneration"/>
+          <include name="initializeLogger"/>
+          <include name="getMethod"/>
+          <include name="quit"/>
+          <include name="launchApplication"/>
+          <include name="executeReportLaunch"/>
+        </methods>
+      </class> <!-- com.basic.smoke.Script2 -->
+      <class name="com.basic.regression.Script1">
+        <methods>
+          <include name="test"/>
+          <include name="getMethod"/>
+          <include name="quit"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- com.basic.regression.Script1 -->
+      <class name="com.basic.regression.Script3">
+        <methods>
+          <include name="getMethod"/>
+          <include name="quit"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- com.basic.regression.Script3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

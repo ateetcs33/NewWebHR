@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.Generics.MyTestListeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.basic.regression.Script1">
+        <methods>
+          <include name="test"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="createExtentFile"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.basic.regression.Script1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
